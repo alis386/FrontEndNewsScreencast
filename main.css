@@ -1,9 +1,28 @@
-ol {
+body {
+    color: darkgray;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+ol, ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
+a {
+    color:coral;
+}
+    a:active{
+        color: green;
+    }
+    a:hover{
+        color: skyblue;
+    }
+    a:focus{
+        color: blueviolet;
+    }
 
 .hero {
     background-color: cornflowerblue;
@@ -29,8 +48,17 @@ ol {
 .news-link {
     color: darkblue;
     font-size: 1.4em;
+    margin-bottom: 10px;
+    display: block;
     
 }
+
+.news-meta-item {
+    display: inline;
+    margin-right: 15px;
+   
+}
+
 
 .content {
     max-width: 800px;
