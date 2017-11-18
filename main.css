@@ -1,0 +1,43 @@
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.hero {
+    background-color: cornflowerblue;
+    padding: 20px 0;
+    text-align: center;
+    color: white;   
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.news-item {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.news-link {
+    color: darkblue;
+    font-size: 1.4em;
+    
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
