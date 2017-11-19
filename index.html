@@ -15,8 +15,17 @@
                 <p class="logo">Front-end News</p>
             </div>    
         </header>
+       
         <main class="content">
             <div class="container"> 
+                <header class="subheader">
+                    <h1>Latest News</h1>
+                    <p>The latest links in the front-end community. <a class="js-add-link" href="#">Add a link now!</a></p>
+                    <form class="form js-form">
+                        <label class="form-label" for="form-link-input">Add a story:</label>
+                        <input class="form-input" type="text" id="form-link-input" />
+                    </form>
+                </header>
                 <ol class="news">
                     <li class="news-item">
                         <a class="news-link" href="#">Frontend design</a>
@@ -29,7 +38,7 @@
                                  <a href="#">3 comments</a>
                             </li>
                              <li class="news-meta-item">
-                                 <a href="#">Like this story</a>
+                                 <a class="js-like" href="#">Like this story</a>
                             </li>
                         </ul>
                     </li>
@@ -44,7 +53,7 @@
                                  <a href="#">3 comments</a>
                             </li>
                              <li class="news-meta-item">
-                                 <a href="#">Like this story</a>
+                                 <a class="js-like" href="#">Like this story</a>
                             </li>
                         </ul>
                     </li>
@@ -59,7 +68,7 @@
                                  <a href="#">3 comments</a>
                             </li>
                              <li class="news-meta-item">
-                                 <a href="#">Like this story</a>
+                                 <a class="js-like" href="#">Like this story</a>
                             </li>
                         </ul>
                     </li>
@@ -74,7 +83,7 @@
                                  <a href="#">3 comments</a>
                             </li>
                              <li class="news-meta-item">
-                                 <a href="#">Like this story</a>
+                                 <a class="js-like" href="#">Like this story</a>
                             </li>
                         </ul>
                     </li>
@@ -89,12 +98,15 @@
                                  <a href="#">3 comments</a>
                             </li>
                              <li class="news-meta-item">
-                                 <a href="#">Like this story</a>
+                                 <a class="js-like" href="#">Like this story</a>
                             </li>
                         </ul>
                     </li>
                 </ol>
             </div>
         </main>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="app.js"></script>>
     </body>
 </html>
